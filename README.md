@@ -11,7 +11,7 @@ GHOST has three commands, notated by tildes (~dark, ~lite, ~inst N) that switch 
 
 What does it support?
 
-GHOST supports JavaScript 4.0. The Qt5 library has not yet added support for JS5, but that is likely to be added with Qt6. That is to say, GHOST will likely support JS5 soon after Qt6 is released. Moreover, while GHOST has the infrastructure to support WebGL & WASM, the former has a fingerprinting exploitation that, until resolved, has prevented it's use in release versions. Once WebGL is secure again, however, support will likely be added to GHOST.
+GHOST supports JavaScript 4.0. GHOST has the infrastructure to support WebGL & WASM, but the former has a fingerprinting exploitation that, until resolved, has prevented it's use in release versions. We are currently working on a solution to mask hardware information to prevent WebGL fingerprinting.
 
 How do I install it?
 
